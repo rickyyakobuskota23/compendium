@@ -1,0 +1,31 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid #ddd; */ /* Removed border */
+  border-radius: 8px;
+  padding: 16px;
+  transition: transform 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 8px 0;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
